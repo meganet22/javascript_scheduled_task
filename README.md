@@ -23,3 +23,18 @@ JS’de bir elementin görüntüsü nasıl değiştirilir? Cevap: JS sayfadaki b
 
 
 JS’de zamanlanmış görev nasıl kullanılır? Cevap: JS zamanlayıcı (Timer) nesnesini kullanarak zamanlanmış görev oluşturabilir ya da bir olayın aralıklarla tekrarlanmasını sağlayabilir. Örneğin bir sınav uygulaması oluşturduğumuzu düşünelim. Bu uygulamada her sorunun yanıtlanması için kullanıcıya 30 saniye verilsin. 30 saniye sonunda kullanıcının soruyu yanıtlamasınıengellemek için zamanlanmış görevleri kullanabiliriz. Saniyede bir kere çalışacak zamanlanmış görev ile sayfadaki bir sayaç güncellenerek, zamanın bitişinde formu gönderecek olan düğmenin etkileşimi kaldırılabilir.Resim 4.7’de solda zamanlanmış görevin çalışması ve sayacı güncellemesi görülmektedir. Sağ tarafta ise sürenin bitmesi durumunda formu gönderecek düğmenin aktifliği kaldırılmaktadır.
+
+-
+
+Verilen kodları belirli zaman aralıklarıyla (ör: her saniye) sürekli işletmek amacıyla aşağıdaki metotlardan hangisi kullanılır? 
+A ) setInterval 
+
+B ) setTimeout 
+C ) getSeconds 
+D ) getTime 
+E ) getMilliseconds 
+
+Çözüm : JS kodları belirli bir zamanda çalışmak üzere  ayarlanabilir. Bu isleme zamanlanmış görev denmektedir. JS iki tür zamanlanmış görev desteklemektedir. İlk zamanlanmış görev verilen kodları bir zaman aralığından sonra (ör: 10sn) işletir. Bu amaçla setTimeout fonksiyonu kullanılır. İkinci zamanlanmış görev türü, verilen kodları belirli zaman aralıklarıyla (ör: her saniye) sürekli işletir. Bu amaçla setInterval fonksiyonu kullanılır. 
+Doğru cevap A şıkkıdır.  
+
+-
